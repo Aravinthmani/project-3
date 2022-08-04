@@ -1,0 +1,62 @@
+body{
+    background-color: hsl(257, 40%, 49%);
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+}
+.para{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    line-height: 1.5;
+   
+}
+
+.first-container{
+    padding: 5% 4% 0 0%;
+
+}
+.sec-container{
+    color: #fff;
+    padding-top: 10%;
+    text-align: left;
+}
+.logo{
+    padding-left: 10%;
+    padding-top: 5%;
+}
+.button{
+    border-radius: 2rem;
+    margin-top: 3%;
+    padding: 2% 9%;
+    color:  hsl(257, 40%, 49%)
+}
+
+.icon{
+    text-align: right;
+    color: #fff;
+    padding-right: 5%;
+    
+}
+.icon:hover{
+    color: rgb(116, 114, 116);
+}
+.ins{
+    padding: 1.5%;
+}
+
+@media(max-width:1000px){
+    .sec-container{
+        text-align: center;
+        padding: 5%;
+    }
+    .image{
+        width: 500px;
+    }
+  
+    .icon{
+        text-align: center;
+        padding: 5%;
+    }
+    
+}
